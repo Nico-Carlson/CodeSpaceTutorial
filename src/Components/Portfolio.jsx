@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/ProfilePic.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Profile picture of a Nico Carlson";
 
 /**
  * Project list
@@ -31,16 +31,16 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "A WIP example of Conway's Game of Life using Java.",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A simple implementation of Conway's Game of Life in Java using JFrames and JLabels.",
+    url: "",
   },
   {
-    title: "Web Development for Beginners",
+    title: "My Simple About Me Site",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A simple website built from scratch to implement HTML and CSS fundamentals.",
+    url: "",
   },
   {
     title: "My Resume Site",
@@ -49,10 +49,10 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Blog documenting my experience woeking on the Smart Fires Grant.",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Shows my experience working on the Smart Fires Grant, a project to create a system to collect data on forest health. Showcases my experience implementing Ros2 and SLAM algorithms.",
+    url: "",
   },
 ];
 
